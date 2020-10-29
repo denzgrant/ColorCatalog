@@ -3,6 +3,7 @@ import { StyleSheet, FlatList } from "react-native";
 import ColorButton from "./ColorButton";
 import ColorForm from "./ColorForm";
 import { useColors } from "../hooks";
+import SwipeableItem from 'react-native-swipeable-item'
 
 export default function ColorList({ navigation }) {
   const { colors, addColor } = useColors();
